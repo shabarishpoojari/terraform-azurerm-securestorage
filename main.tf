@@ -10,7 +10,7 @@ terraform {
 
 locals {
   tags = {
-    "Environment" : var.environment
+    "Environment" = var.environment
   }
 }
 
